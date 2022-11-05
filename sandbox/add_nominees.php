@@ -126,19 +126,7 @@ require("classes/Nominees.php");
                 </div>
                 <div class="form-group-sm">
                     <label for="course">Course</label>
-                    <select required name="course" class="form-control">
-                        <option value="">*****Select Course*****</option>
-                        <option value="BSIT">BSIT</option>
-                        <option value="COE">COE</option>
-                        <option value="BEE">BEE</option>
-                        <option value="BSE">BSE</option>
-                        <option value="BSA">BSA</option>
-                        <option value="BSF">BSF</option>
-                        <option value="BHRM">BHRM</option>
-                        <option value="BSHT">BSHT</option>
-                        <option value="CRIMINOLOGY">CRIMINOLOGY</option>
-                        <option value="MIDWIFERY">MIDWIFERY</option>
-                    </select>
+                    <input type="text" required name="course" class="form-control" placeholder="Course">
                 </div>
                 <div class="form-group-sm">
                     <label for="year">Year</label>
