@@ -82,19 +82,7 @@ require("classes/Voters.php");
                 </div>
                 <div class="form-group-sm">
                     <label for="course">Course</label>
-                    <select required name="course" class="form-control">
-                        <option value="">*****Select Course*****</option>
-                        <option value="BSIT">BSIT</option>
-                        <option value="COE">COE</option>
-                        <option value="BEE">BEE</option>
-                        <option value="BSE">BSE</option>
-                        <option value="BSA">BSA</option>
-                        <option value="BSF">BSF</option>
-                        <option value="BHRM">BHRM</option>
-                        <option value="BSHT">BSHT</option>
-                        <option value="CRIMINOLOGY">CRIMINOLOGY</option>
-                        <option value="MIDWIFERY">MIDWIFERY</option>
-                    </select>
+                    <input type="text" required name="course" class="form-control" placeholder="e.g CSC/BIO">
                 </div>
                 <div class="form-group-sm">
                     <label for="year">Year</label>
@@ -103,8 +91,8 @@ require("classes/Voters.php");
                         <option value="I">I</option>
                         <option value="II">II</option>
                         <option value="III">III</option>
-                        <option value="IV">IV</option>
-                        <option value="V">V</option>
+                        <!-- <option value="IV">IV</option>
+                        <option value="V">V</option> -->
                     </select>
                 </div>
                 <div class="form-group-sm">
@@ -122,7 +110,7 @@ require("classes/Voters.php");
         $rtnReadVoters = $readVoters->READ_VOTERS();
         ?>
         <div class="col-md-8">
-            <h4>List of Organizations</h4><hr>
+            <h4>List of Students</h4><hr>
             <div class="table-responsive">
                 <?php if($rtnReadVoters) { ?>
                 <table class="table table-bordered table-condensed table-striped">

@@ -59,7 +59,7 @@ require("process/auth.php");
     <div class="row">
         <div class="col-md-12 jumbotron">
             <div class="text-center">
-                <h2>Computerized Student Organization</h2>
+                <h2>Emmanuel Alayande College of Education Oyo</h2>
                 <p>
                     <h1>Voting System</h1><br />
                 <button class="btn btn-info">About the System</button>
