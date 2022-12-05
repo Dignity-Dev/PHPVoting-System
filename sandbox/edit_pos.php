@@ -141,7 +141,7 @@ require("classes/Position.php");
 
         <div class="container">
             <div class="navbar-text pull-left">
-                Copyright 2017
+                Dignity Technology Softwares &copy; 2022
             </div>
         </div>
 

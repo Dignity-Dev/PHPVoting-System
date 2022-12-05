@@ -79,12 +79,11 @@ require("classes/Nominees.php");
 
                     <table>
                         <tr>
-                            <td><img src="../assets/img/IFSU%20Logo.jpg" style="width:70px;height:70px;"></td>
+                            <td><img src="../assets/img/schoollogo.jpg" style="width:70px;height:70px;"></td>
                             <td><br/>
                                 <p style="text-align: left;">
-                                    <b>Republic of the Philippines</b><br />
-                                    IFUGAO STATE UNIVERSITY<br />
-                                    Potia Campus, Alfonso Lista, Ifugao
+                                    <b>Emmanuel Alayande College of Education</b><br />
+                                    P.M.B 1010 Oyo, Oyo State, Nigeria.
                                 </p>
                             </td>
                         </tr>
@@ -160,7 +159,7 @@ require("classes/Nominees.php");
 
     <div class="container">
         <div class="navbar-text pull-left">
-            Copyright 2017
+            Dignity Technology Softwares &copy; 2022
         </div>
     </div>
 
